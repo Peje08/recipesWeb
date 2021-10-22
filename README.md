@@ -6,3 +6,5 @@ Web de recetas
 2 Me estoy centrando en ir modificando y refinan detalles por secciones. en el último commit se modificaron botones de home y contacto. Pronto se les dará funcionalidad a todo.
 
 3 Ajusté las background img para que se ajusten. 
+
+4 Ajusté las cards. ahora tienen texto, e imagenes de comida

@@ -137,6 +137,7 @@
     border-radius: 20px;
     border: #111827 2px solid;
     animation: 1.5s infinite alternate bounce;
+    max-width: 100%;
   }
   
   .button {
@@ -151,7 +152,7 @@
     border: #111827 2px solid;
     font-size: 20px;
   }
-  
+
   @keyframes shake {
     from {
       transform: translateX(-5px);
@@ -183,7 +184,7 @@
   
   .catalogue-container {
     background-color: rgb(211, 195, 195);
-    background-image: url(https://freedesignfile.com/upload/2018/06/Cooking-recipes-background-and-jar-full-of-honey-on-white-04.jpg) ;
+    background-image: url(https://freedesignfile.com/upload/2018/06/Cooking-recipes-background-and-jar-full-of-honey-on-white-04.jpg);
     background-size: cover;
     height: 100vh;
     padding: 10rem;
@@ -207,10 +208,16 @@
     height: 300px;
     overflow: hidden;
     margin: 1rem;
+    background-color: rgb(206, 189, 168);
   }
   
   .card img {
     object-fit: contain;
+  }
+
+  #cardText {
+    color: #111827;
+    font-family: 'Roboto Slab';
   }
   
   .contact-container {
